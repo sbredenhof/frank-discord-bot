@@ -2,10 +2,6 @@
 Frank the discord bot
 version 0.2
 by Sam B.
-
-User sends message----->Check database of responses to that message ---> message does not exists ----> add message to list with no response --> send a message that also has no response --> save thier response to that message ---> if someone ever says the message the bot said, it replies with what the person answered.
-															   \
-																---> Message exists ---> send response
 */
 // Require the necessary discord.js classes
 const Discord = require('discord.js');
